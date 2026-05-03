@@ -1,54 +1,54 @@
-<！DOCTYPE html>
-<超文本标记语言>
-<头>
-原字符集="utf-8">
-<元姓名="视口" 内容="宽度=设备宽度，初始比例=1">
-<标题>我的游戏库</标题>
-<风格>
-身体{边缘：0；padding:0；背景：#f4f5f7；字体系列：微柔雅黑}
-.Top{background：#2488ff；color：#fff；text-align：中心；padding:30PX 0；字体大小：26PX；字体粗细：大胆}
-.box{显示：弯曲}
-.left{宽度：120px；背景：#FFF；顶部内衣：20px}
-.left div{padding:12px10px；字体大小：15px；颜色：#333}
-.左div.active{背景：#e8f4ff；脸色：#2488ff；字体粗细：大胆}
-.对
-.item{背景：#FFF；边界半径：8px；padding:12px；底边距：15px；显示：弯曲；对齐项目：中心}
-.ico{宽度：60px；高度：60px；边界半径：8px；背景：#DDD；右边距：12px}
-.info{弯曲：1}
-.name{字体大小：16px；字体粗细：大胆}
-.Time
-.BTN{颜色：#2488ff；边框：1PX固体#2488ff；边界半径：20px；padding:6px15px；文字装饰：没有一个；字体大小：14PX}
-.foot{text-align：中心；填充：20px；字体大小：12px；颜色：#999}
-</风格>
-</头>
-<身体>
-<div班级=>我的游戏库</div>"顶部">
-<div班级=
-<div班级="左">
-    <div班级="活跃的">我的推荐</div>
-"框"div>苹果游戏</div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我的游戏库</title>
+<style>
+body{margin:0;padding:0;background:#f4f5f7;font-family:微软雅黑}
+.top{background:#2488ff;color:#fff;text-align:center;padding:30px 0;font-size:26px;font-weight:bold}
+.box{display:flex}
+.left{width:120px;background:#fff;padding-top:20px}
+.left div{padding:12px 10px;font-size:15px;color:#333}
+.left div.active{background:#e8f4ff;color:#2488ff;font-weight:bold}
+.right{flex:1;padding:15px}
+.item{background:#fff;border-radius:8px;padding:12px;margin-bottom:15px;display:flex;align-items:center}
+.ico{width:60px;height:60px;border-radius:8px;background:#ddd;margin-right:12px}
+.info{flex:1}
+.name{font-size:16px;font-weight:bold}
+.time{font-size:13px;color:#666;margin-top:5px}
+.btn{color:#2488ff;border:1px solid #2488ff;border-radius:20px;padding:6px 15px;text-decoration:none;font-size:14px}
+.foot{text-align:center;padding:20px;font-size:12px;color:#999}
+</style>
+</head>
+<body>
+<div class="top">我的游戏库</div>
+<div class="box">
+  <div class="left">
+    <div class="active">我的推荐</div>
+    <div>苹果游戏</div>
     <div>短剧专区</div>
     <div>九门游戏</div>
   </div>
-  <div班级="正确的">
-"正确的"<div班级="项目">
-"项目"<div班级="ico"></div>
-      <div班级="信息">
-"信息"<div班级="名称">福马聚(主讯)</div>
-福马聚"名称"</"时间">
+  <div class="right">
+    <div class="item">
+      <div class="ico"></div>
+      <div class="info">
+        <div class="name">福马聚（主讯）</div>
+        <div class="time">2026-05-03</div>
       </div>
-<一个href=<一个href=""HTTPS：//你的推广链接1.com"班级="btn">查看BTN">查看</一个>"班级="你的推广链接1>"班级="你的推广链接1
-    </div>div>
-<div班级=<div班级="项目">div班级=<div班级="项目">
-"项目"<div班级=div班级="ICO">></div>div><div班级=div班级="ICO">></div>div>
-<div班级=<div班级="信息">div班级=<div班级="信息">
-<div班级=<div班级="名称">成语大宝藏</div>div班级=<div班级="名称">成语大宝库</div>
-<div班级=<div班级="时间">2026-05-03</div>div班级=<div班级="时间">2026-05-03</div>
-</div></div>div></div>
-<一个href=""https://你的推广链接2.com"班级="btn">查看</一个><一个href=""https://你的推广链接2.com"班级="btn">查看</一个>一个href=""https://你的推广链接2.com"班级="btn">查看</一个><一个href=""https://你的推广链接2.com"班级="btn">查看</一个>
-</div></div>div></div>
-</div></div>div></div>
-</div>div>div>div>
-<div班级="英尺">我的游戏库·永久免费</div>div班级="英尺">我的游戏库·永久免费</div>div班级="英尺">我的游戏库·永久免费</div>div班级="英尺">我的游戏库·永久免费</div>
-</身体>身体>身体>身体>
-</超文本标记语言>超文本标记语言>超文本标记语言>超文本标记语言>
+      <a href="https://你的推广链接1.com" class="btn">查看</a>
+    </div>
+    <div class="item">
+      <div class="ico"></div>
+      <div class="info">
+        <div class="name">成语大宝藏</div>
+        <div class="time">2026-05-03</div>
+      </div>
+      <a href="https://你的推广链接2.com" class="btn">查看</a>
+    </div>
+  </div>
+</div>
+<div class="foot">我的游戏库 · 永久免费</div>
+</body>
+</html>
